@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "node-library-template",
   "author": "Chao Yang <chao@yang.to>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "engines": {
