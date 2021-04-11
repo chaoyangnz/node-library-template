@@ -16,7 +16,10 @@
     "noUnusedParameters": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "paths": {
+      "*": ["src/@types"]
+    }
   },
   "include": [
     "src/**/*",

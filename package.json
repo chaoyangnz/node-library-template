@@ -18,7 +18,8 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "prerelease": "npm login && bump --tag",
-    "release": "npm publish"
+    "release": "npm publish",
+    "postinstall": "ts-node tools/rename.ts"
   },
   "publishConfig": {
     "access": "public"
@@ -42,7 +43,7 @@
     "eslint-plugin-jest": "~24.1.5",
     "jest": "~26.6.3",
     "prettier": "~2.2.1",
-    "prompt": "^1.1.0",
+    "prompts": "^2.4.1",
     "replace-in-file": "^6.2.0",
     "rimraf": "~3.0.2",
     "semantic-release": "^17.4.2",
