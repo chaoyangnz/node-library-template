@@ -41,10 +41,10 @@ npm install
 
 ### Download latest release
 
-Download and unzip current `main` branch or one of tags:
+Download and unzip current `master` branch or one of tags:
 
 ```sh
-wget https://github.com/chaoyangnz/node-library-template/archive/main.zip -O node-library-template.zip
+wget https://github.com/chaoyangnz/node-library-template/archive/master.zip -O node-library-template.zip
 unzip node-library-template.zip && rm node-library-template.zip
 ```
 
@@ -60,7 +60,7 @@ unzip node-library-template.zip && rm node-library-template.zip
 
 ## License
 
-Licensed under the MIT. See the [LICENSE](https://github.com/chaoyangnz/node-library-template/blob/main/LICENSE) file for details.
+Licensed under the MIT. See the [LICENSE](https://github.com/chaoyangnz/node-library-template/blob/master/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.2-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2012.20-blue.svg
@@ -70,7 +70,7 @@ Licensed under the MIT. See the [LICENSE](https://github.com/chaoyangnz/node-lib
 [typescript]: https://www.typescriptlang.org/
 [typescript-4-2]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-2.html
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license]: https://github.com/chaoyangnz/node-library-template/blob/main/LICENSE
+[license]: https://github.com/chaoyangnz/node-library-template/blob/master/LICENSE
 [sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
 [sponsor]: https://github.com/sponsors/chaoyangnz
 [jest]: https://facebook.github.io/jest/
