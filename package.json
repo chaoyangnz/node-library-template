@@ -19,6 +19,7 @@
     "test:watch": "jest --watch",
     "prerelease": "npm login && bump --tag",
     "release": "npm publish",
+    "postrelease": "git push && git push --tags",
     "postinstall": "ts-node tools/rename.ts"
   },
   "publishConfig": {
