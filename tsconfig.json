@@ -17,8 +17,11 @@
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictNullChecks": false,
+    "baseUrl": ".",
     "paths": {
-      "*": ["src/@types"]
+      "*": [
+        "src/@types"
+      ]
     }
   },
   "include": [

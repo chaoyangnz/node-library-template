@@ -37,7 +37,7 @@ async function run() {
     from: /ts\-node tools\/rename\.ts/g,
     to: '',
   });
-  rm('tools/rename.ts');
+  rm('-rf', 'tools')
 
   console.log('All done! Enjoy');
 }
