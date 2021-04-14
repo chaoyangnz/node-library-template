@@ -4,6 +4,10 @@
   "description": "node-library-template",
   "author": "Chao Yang <chao@yang.to>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaoyangnz/node-library-template"
+  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "engines": {
@@ -11,7 +15,7 @@
   },
   "scripts": {
     "start": "node lib/index.js",
-    "clean": "rimraf coverage build tmp",
+    "clean": "rimraf coverage build lib tmp",
     "prebuild": "npm run clean",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
